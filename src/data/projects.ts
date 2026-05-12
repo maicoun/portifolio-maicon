@@ -28,6 +28,7 @@ export const projects: Project[] = [
     stack: ['Streaming', 'UX', 'UI', 'Protótipo', 'Web', 'Mobile'],
     showcaseSlides: veloraShowcaseSlides,
     demoYoutubeVideoId: 'g4tEJensQus',
+    liveUrl: 'https://velora-stream-five.vercel.app/',
     repoUrl: 'https://github.com/maicoun/velora-stream',
   },
   {
