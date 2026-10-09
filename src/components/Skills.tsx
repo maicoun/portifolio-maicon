@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { FrameworkHoloCards } from './FrameworkHoloCards'
 
 type Group = { title: string; items: readonly string[] }
 
@@ -21,7 +22,9 @@ export function Skills({ groups }: { groups: readonly Group[] }) {
           </h2>
         </motion.div>
 
-        <div className="mt-14 grid gap-8 md:grid-cols-3">
+        <FrameworkHoloCards />
+
+        <div className="mt-20 grid gap-8 md:grid-cols-3">
           {groups.map((g, i) => (
             <motion.div
               key={g.title}

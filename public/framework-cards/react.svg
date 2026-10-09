@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+  <defs>
+    <linearGradient id="r-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061820"/>
+      <stop offset="50%" stop-color="#0a2430"/>
+      <stop offset="100%" stop-color="#050508"/>
+    </linearGradient>
+    <linearGradient id="r-shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="630" height="880" fill="url(#r-bg)"/>
+  <rect width="630" height="880" fill="url(#r-shine)"/>
+  <rect x="36" y="36" width="558" height="808" rx="28" fill="none" stroke="#61DAFB" stroke-opacity="0.4" stroke-width="3"/>
+  <text x="315" y="120" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="28" font-weight="600" letter-spacing="8">LIBRARY</text>
+  <g transform="translate(315 420)" fill="none" stroke="#61DAFB" stroke-width="14">
+    <ellipse rx="130" ry="48" transform="rotate(0)"/>
+    <ellipse rx="130" ry="48" transform="rotate(60)"/>
+    <ellipse rx="130" ry="48" transform="rotate(120)"/>
+  </g>
+  <circle cx="315" cy="420" r="22" fill="#61DAFB"/>
+  <text x="315" y="720" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="72" font-weight="700">React</text>
+  <text x="315" y="780" text-anchor="middle" fill="#67e8f9" font-family="system-ui,sans-serif" font-size="26" letter-spacing="4">Components · Hooks</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="880" viewBox="0 0 630 880">
+  <defs>
+    <linearGradient id="a-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a0e"/>
+      <stop offset="55%" stop-color="#2d0f18"/>
+      <stop offset="100%" stop-color="#0c0c12"/>
+    </linearGradient>
+    <linearGradient id="a-shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="630" height="880" fill="url(#a-bg)"/>
+  <rect width="630" height="880" fill="url(#a-shine)"/>
+  <rect x="36" y="36" width="558" height="808" rx="28" fill="none" stroke="#DD0031" stroke-opacity="0.35" stroke-width="3"/>
+  <text x="315" y="120" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="28" font-weight="600" letter-spacing="8">FRAMEWORK</text>
+  <g transform="translate(315 420)">
+    <path fill="#DD0031" d="M0-120L104 120H-104z"/>
+    <path fill="#C3002F" d="M0-88L76 88H-76z"/>
+    <path fill="#fff" d="M0-28L24 52H-24z"/>
+  </g>
+  <text x="315" y="720" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="72" font-weight="700">Angular</text>
+  <text x="315" y="780" text-anchor="middle" fill="#f87171" font-family="system-ui,sans-serif" font-size="26" letter-spacing="4">TypeScript · SPA</text>
+</svg>
