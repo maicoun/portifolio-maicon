@@ -31,3 +31,19 @@
     @apply bg-cyan-500/30 text-white;
   }
 }
+
+.framework-carousel {
+  position: relative;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: 12px;
+  scroll-padding-inline: 12px;
+}
+
+.framework-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.framework-carousel .holo-card {
+  touch-action: pan-x pan-y;
+}

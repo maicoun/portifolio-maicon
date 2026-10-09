@@ -22,6 +22,30 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: 'encore',
+    title: 'Encore',
+    description: `Plataforma de revenda de ingressos de shows e festivais que conecta quem não poderá comparecer a quem deseja ir. O comprador pode escolher evento, cidade, data, setor e modalidade do ingresso.
+
+A proposta é mediar a negociação, acompanhando o pagamento e a transferência pela plataforma oficial antes da revisão do repasse ao vendedor. Interface responsiva com modos claro e escuro e integrações visuais com YouTube e Google Maps.
+
+Em desenvolvimento — pagamentos com Mercado Pago Checkout Pro em ambiente de teste.`,
+    stack: ['React', 'TypeScript', 'Vite', 'React Router', 'CSS responsivo', 'Lucide React', 'Motion', 'Go', 'SQLite', 'Mercado Pago', 'YouTube', 'Google Maps'],
+    showcaseSlides: [
+      {
+        id: 'encore-home',
+        label: 'Página inicial',
+        imageDesktop: '/projects/encore-home-desktop.png',
+        imageMobile: '/projects/encore-home-mobile.png',
+      },
+      {
+        id: 'encore-tickets',
+        label: 'Meus ingressos · desktop / Início · mobile',
+        imageDesktop: '/projects/encore-tickets-desktop.png',
+        imageMobile: '/projects/encore-home-mobile.png',
+      },
+    ],
+  },
+  {
     id: 'velora-plus',
     title: 'Velora+',
     description: `Protótipo de experiência de streaming: catálogo em destaque, navegação por títulos e sensação de app de filmes e séries — com foco em hierarquia visual, cartazes e leitura rápida em telas grandes e pequenas.`,
